@@ -23,15 +23,6 @@ namespace DigitalThermomterTTI7RInterface.Controllers
         }
 
 
-        //// GET: UnitStatuses/GetStatus
-        //[Route("UnitStatuses/SetStatus/{StatusName}")]
-        //public ActionResult SetStatus(string StatusName)
-        //{
-        //    //set status to true or false
-        //    var unitStatus = StatusTypeSwitch(StatusName, true); 
-        //    return View(unitStatus);
-        //}
-
         private UnitStatus StatusTypeSwitch(string unitStatusName)
         {
             var unitStatus = new UnitStatus();

@@ -20,7 +20,7 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
 
-                    @*<li>@Html.ActionLink("Self Test",  "GetStatus", "UnitStatuses","Self Test")</li>*@
+                    <li>@Html.ActionLink("Self Test", "GetStatus","UnitStatuses", new {StatusName = "Self Test"}, null)</li>
                 </ul>
             </div>
         </div>
